@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "id": "ITEM_0002",
+      "name": "EnemyDex",
+      "description": "",
+      "tags": [],
+      "properties": {},
+      "stackable": false,
+      "image": "EnemyDex.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0001",
+      "name": "cyclops eye",
+      "description": "",
+      "tags": [],
+      "properties": {},
+      "stackable": true,
+      "stack_limit": 64,
+      "image": "cyclopseye.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0005",
+      "name": "food",
+      "description": "",
+      "tags": [],
+      "properties": {},
+      "stackable": false,
+      "usable": true,
+      "num_of_uses": 29,
+      "script": ""
+    },
+    {
+      "id": "ITEM_0004",
+      "name": "stick",
+      "description": "",
+      "tags": [],
+      "properties": {},
+      "stackable": true,
+      "stack_limit": 64,
+      "craftable": true,
+      "recipe": [{"count":2,"item_id":"ITEM_0001"}],
+      "image": "stick.png",
+      "usable": false
+    },
+    {
+      "id": "ITEM_0003",
+      "name": "sword",
+      "description": "",
+      "tags": [],
+      "properties": {},
+      "stackable": false,
+      "equippable": true,
+      "effects": [{"amount":10,"stat":"attack","type":"stat_boost"}],
+      "weapon": true,
+      "weapon_type": "melee",
+      "object": "ok",
+      "craftable": true,
+      "recipe": [{"count":2,"item_id":"ITEM_0004"}],
+      "tool_item": true,
+      "tool_item_range": 1,
+      "tool_item_script_mode": "entity",
+      "image": "sword.png",
+      "usable": true,
+      "num_of_uses": 100,
+      "script": ""
+    }
+  ],
+  "localized": false
+}

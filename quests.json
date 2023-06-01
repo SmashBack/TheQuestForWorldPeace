@@ -1,0 +1,18 @@
+{
+  "quests": [
+    {
+      "id": "QUEST_0001",
+      "name": "Save the villagers",
+      "description": "The Cyclops's have invaded the village! Will you stop them?",
+      "tags": [],
+      "complete_script": "W1Questcomplete",
+    },
+    {
+      "id": "QUEST_0002",
+      "name": "create",
+      "description": "",
+      "tags": [],
+    }
+  ],
+  "localized": false
+}
